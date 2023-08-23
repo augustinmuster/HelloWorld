@@ -7,6 +7,7 @@ function test1()
 end
 
 module TestMod
+	export test2
 	function test2()
 		return 2
 	end	
