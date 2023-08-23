@@ -1,0 +1,4 @@
+name = "HelloWorld"
+uuid = "d84182ec-2b1d-4e1b-9cb0-668f1c7ef18e"
+authors = ["augustinmuster <augustin@must-r.com>"]
+version = "0.1.0"
