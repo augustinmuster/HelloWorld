@@ -1,13 +1,13 @@
 module HelloWorld
 
-export test1, TestMod, TestMod3
+export test1, TestMod
 
 function test1()
 	return 1
 end
 
 
-include("test.jl")
+
 module TestMod
 	export test2
 	function test2()
@@ -17,9 +17,9 @@ end
 
 module TestMod2
 	export test3
-	using .TestMod
 	function test3()
-		return test1()+TestMod.test2()
+		return test1()
 	end	
 end
+
 end
