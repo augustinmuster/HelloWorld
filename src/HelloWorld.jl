@@ -1,6 +1,6 @@
 module HelloWorld
 
-export test1, TestMod
+export test1, TestMod, TestMod2
 
 function test1()
 	return 1
