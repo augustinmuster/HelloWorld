@@ -16,9 +16,10 @@ module TestMod
 end
 
 module TestMod2
+	using ..TestMod
 	export test3
 	function test3()
-		return test1()
+		return test2()
 	end	
 end
 
